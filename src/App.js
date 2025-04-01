@@ -32,6 +32,14 @@ const ServerList = () => {
       <header>
         <h1>MCP Hosting in TEE</h1>
         <p className="subtitle">Your privacy is protected and the execution can be verified</p>
+        <a 
+          href="https://github.com/tolak/mcp-hosting-tee?tab=readme-ov-file#submit-you-server"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="submit-server-button"
+        >
+          Submit your server
+        </a>
       </header>
       <main>
         <div className="server-list">
