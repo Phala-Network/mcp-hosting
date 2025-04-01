@@ -15,5 +15,22 @@
           }
         }
       }
+    },
+    "Figma MCP": {
+      "description": "Give Cursor, Windsurf, Cline, and other AI-powered coding tools access to your Figma files with this Model Context Protocol server.",
+      "repo": "https://github.com/tolak/Figma-Context-MCP",
+      "serverUrl": "https://ad791f428e4d2cb1e38e76833404124ed2240e8e-3333.dstack-prod5.phala.network/sse",
+      "explorerUrl": "https://proof.t16z.com/reports/1ced1fb45e9e8e0d81218726ddef50dd91490f923398baa2db4ba87b139c559b",
+      "demoUrl": "https://www.youtube.com/watch?v=6G9yb-LrEqg",
+      "transport": "sse",
+      "config": {
+        "mcpServers": {
+          "Figma MCP": {
+            "url": "https://ad791f428e4d2cb1e38e76833404124ed2240e8e-3333.dstack-prod5.phala.network/sse",
+            "env": {
+            }
+          }
+        }
+      }
     }
   }
