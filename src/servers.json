@@ -28,6 +28,7 @@
           "Figma MCP": {
             "url": "https://ad791f428e4d2cb1e38e76833404124ed2240e8e-3333.dstack-prod5.phala.network/sse",
             "env": {
+              "FIGMA_API_KEY": "<your figma API key>"
             }
           }
         }
