@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+:root {
+  --phala-green: #00e396;
+  --phala-dark: #0a0f1c;
+  --phala-gray: #64748b;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
+  background: var(--phala-dark);
+  color: white;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 64px;
+  padding: 40px 0;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 16px;
+  color: var(--phala-green);
+}
+
+.subtitle {
+  font-size: 24px;
+  color: var(--phala-gray);
+  margin: 0;
+  font-weight: 400;
+}
+
+main {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 24px;
 }
 
-.App-link {
-  color: #61dafb;
+.server-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.load-more {
+  padding: 12px 24px;
+  background: transparent;
+  border: 1px solid var(--phala-green);
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 24px auto;
+  transition: all 0.2s;
+  color: var(--phala-green);
+}
+
+.load-more:hover {
+  background: rgba(0, 227, 150, 0.1);
+}
+
+.footer {
+  text-align: center;
+  margin-top: 64px;
+  padding: 24px 0;
+  color: var(--phala-gray);
+  font-size: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer a {
+  color: var(--phala-green);
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.footer a:hover {
+  opacity: 0.8;
 }

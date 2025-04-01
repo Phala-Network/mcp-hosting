@@ -1,0 +1,259 @@
+.server-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 32px;
+  margin: 16px 0;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+  position: relative;
+  border: 1px solid var(--phala-green);
+  backdrop-filter: blur(10px);
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: #f5f5f5;
+  border: none;
+  border-radius: 8px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 24px;
+  transition: all 0.2s;
+}
+
+.back-button:hover {
+  background: #e5e5e5;
+}
+
+.back-button .button-icon {
+  width: 16px;
+  height: 16px;
+  color: #000;
+}
+
+.title-container {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.server-card h2 {
+  font-size: 32px;
+  margin: 0;
+  color: white;
+  font-weight: 500;
+}
+
+.transport-tag {
+  position: absolute;
+  bottom: -4px;
+  right: -40px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #ff3b30;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.description {
+  color: var(--phala-gray);
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 24px 0;
+  max-width: 800px;
+}
+
+.header-actions {
+  display: flex;
+  gap: 8px;
+  position: absolute;
+  top: 32px;
+  right: 32px;
+}
+
+.action-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  cursor: pointer;
+  font-size: 14px;
+  white-space: nowrap;
+  transition: all 0.2s;
+  color: white;
+  backdrop-filter: blur(5px);
+}
+
+.button-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.action-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--phala-green);
+}
+
+.demo-button {
+  color: white;
+  border-color: rgba(255, 0, 0, 0.3);
+}
+
+.demo-button:hover {
+  background: rgba(255, 0, 0, 0.1);
+  border-color: #ff0000;
+}
+
+.demo-button .button-icon {
+  color: #ff0000;
+}
+
+.url-container {
+  display: flex;
+  gap: 8px;
+  margin: 24px 0;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.url-input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  color: white;
+  background: transparent;
+  font-family: 'Menlo', monospace;
+}
+
+.copy-button, .verify-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+}
+
+.verify-button {
+  color: var(--phala-green);
+  border-color: var(--phala-green);
+}
+
+.config-section {
+  margin-top: 24px;
+}
+
+.config-toggle {
+  background: none;
+  border: none;
+  padding: 12px;
+  margin: -12px;
+  font-size: 16px;
+  color: var(--phala-gray);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.toggle-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.config-container {
+  position: relative;
+  margin-top: 16px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.copy-config-button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: transparent;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.copy-icon {
+  width: 20px;
+  height: 20px;
+  color: var(--phala-gray);
+  transition: color 0.2s;
+}
+
+.copy-config-button:hover .copy-icon {
+  color: var(--phala-green);
+}
+
+.config-json {
+  margin: 0;
+  font-family: 'Menlo', monospace;
+  font-size: 14px;
+  white-space: pre-wrap;
+  word-break: break-all;
+  color: #fff;
+}
+
+.copy-notification {
+  position: absolute;
+  top: 12px;
+  right: 48px;
+  color: var(--phala-green);
+  font-size: 14px;
+  z-index: 1;
+}
+
+.share-container {
+  position: relative;
+}
+
+.share-popup {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  margin-top: 8px;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  padding: 8px 12px;
+  white-space: nowrap;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+}
+
+.share-popup:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--phala-green);
+}

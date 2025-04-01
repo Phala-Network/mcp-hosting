@@ -1,0 +1,19 @@
+{
+    "Juypter Notebook": {
+      "description": "A Juypter Notebook MCP server deployed on Phala Cloud that allows your AI agents to execute code and interact with the notebook with your prompt.",
+      "repo": "https://github.com/Phala-Network/phala-cloud-mcp-starter",
+      "serverUrl": "https://4514a347652928ba60512c42c4ad8470cf0a38e5-8000.teehouse.phatfn.xyz:7094/sse",
+      "explorerUrl": "https://proof.t16z.com/reports/025c04688aac6b7783e7b1e8d41d6e5c169aebf982884681612bc1d487e7e012",
+      "demoUrl": "https://youtu.be/qG-9f66z-G8?si=Fqr9FbMChTIBfD2p",
+      "transport": "sse",
+      "config": {
+        "mcpServers": {
+          "Juypter Notebook": {
+            "url": "https://4514a347652928ba60512c42c4ad8470cf0a38e5-8000.teehouse.phatfn.xyz:7094/sse",
+            "env": {
+            }
+          }
+        }
+      }
+    }
+  }
