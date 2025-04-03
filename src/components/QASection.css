@@ -48,3 +48,43 @@
   margin: 0;
   white-space: pre-wrap;
 }
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .qa-section {
+    margin-top: 40px;
+    padding: 32px 0;
+  }
+
+  .qa-section h2 {
+    font-size: 28px;
+    margin-bottom: 32px;
+  }
+
+  .qa-list {
+    gap: 24px;
+  }
+
+  .qa-item {
+    padding: 20px;
+  }
+
+  .qa-item h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .qa-item p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .qa-section h2 {
+    font-size: 24px;
+  }
+
+  .qa-item {
+    padding: 16px;
+  }
+}
