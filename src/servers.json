@@ -33,5 +33,23 @@
           }
         }
       }
+    },
+    "Supabase DB": {
+      "description": "You can use this server to connect your favorite AI tools (such as Cursor or Claude) directly with Supabase.",
+      "repo": "https://github.com/tolak/supabase-mcp-server",
+      "serverUrl": "https://04babf06cfdaa8887c104c5ad1092c399f629c3a-3000.dstack-prod5.phala.network/sse",
+      "explorerUrl": "https://proof.t16z.com/reports/522a11b76f3709b2e3c0b73503ba588768468322537d4928d25785f931db0ed2",
+      "demoUrl": "https://xguihxuzqibwxjnimxev.supabase.co/storage/v1/object/public/videos/marketing/blog/mcp-server/supabase-mcp-demo.mp4",
+      "transport": "sse",
+      "config": {
+        "mcpServers": {
+          "Supabase DB": {
+            "url": "https://04babf06cfdaa8887c104c5ad1092c399f629c3a-3000.dstack-prod5.phala.network/sse",
+            "env": {
+              "SUPABASE_ACCESS_TOKEN": "<your supabase access token>"
+            }
+          }
+        }
+      }
     }
   }
