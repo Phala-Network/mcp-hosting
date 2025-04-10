@@ -44,10 +44,7 @@
       "config": {
         "mcpServers": {
           "Supabase DB": {
-            "url": "https://04babf06cfdaa8887c104c5ad1092c399f629c3a-3000.dstack-prod5.phala.network/sse",
-            "env": {
-              "SUPABASE_ACCESS_TOKEN": "<your supabase access token>"
-            }
+            "url": "https://04babf06cfdaa8887c104c5ad1092c399f629c3a-3000.dstack-prod5.phala.network/sse"
           }
         }
       }
@@ -62,7 +59,7 @@
       "config": {
         "mcpServers": {
           "ElevenLabsMCP": {
-            "url": "https://<your application id on Phala Cloud>-8000.dstack-prod4.phala.network"
+            "url": "https://<your application id on Phala Cloud>-8000.dstack-prod4.phala.network/sse"
           }
         }
       }
