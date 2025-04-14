@@ -44,12 +44,24 @@
       "config": {
         "mcpServers": {
           "Supabase DB": {
-            "url": "https://04babf06cfdaa8887c104c5ad1092c399f629c3a-3000.dstack-prod5.phala.network/sse",
-            "env": {
-              "SUPABASE_ACCESS_TOKEN": "<your supabase access token>"
-            }
+            "url": "https://04babf06cfdaa8887c104c5ad1092c399f629c3a-3000.dstack-prod5.phala.network/sse"
+          }
+        }
+      }
+    },
+    "ElevenLabsMCP": {
+      "description": "Use any MCP client to connect to ElevenLabs to generate realistic voices for your projects.",
+      "repo": "https://github.com/tolak/elevenlabs-mcp",
+      "serverUrl": "https://<your application id on Phala Cloud>-8000.dstack-prod4.phala.network",
+      "explorerUrl": "https://proof.t16z.com/reports/28f06c690ad918dd36b3c352ddfff3d9780696b2a53240708f17d0feee9f5e53",
+      "demoUrl": "https://x.com/tolak_eth/status/1911047746360156267",
+      "transport": "sse",
+      "config": {
+        "mcpServers": {
+          "ElevenLabsMCP": {
+            "url": "https://<your application id on Phala Cloud>-8000.dstack-prod4.phala.network/sse"
           }
         }
       }
     }
-  }
+}
