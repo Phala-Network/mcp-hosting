@@ -1,7 +1,7 @@
 # MCP Hosting in TEE
 
-List of the MCP servers that hosted in [Phala Cloud](https://cloud.phala.network).
+List of the MCP servers that hosted in [Phala Cloud](https://cloud.phala.network/features/mcp-hosting).
 
 ## Submit you server
 
-Please send PR to add your server into in [./src/servers.json](./src/servers.json) after you deployed it to Phala Cloud.
+Please send PR to add your server into in [./servers.json](./servers.json) after you deployed it to Phala Cloud.
