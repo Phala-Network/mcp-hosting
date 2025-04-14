@@ -54,7 +54,7 @@
       "repo": "https://github.com/tolak/elevenlabs-mcp",
       "serverUrl": "https://<your application id on Phala Cloud>-8000.dstack-prod4.phala.network",
       "explorerUrl": "https://proof.t16z.com/reports/28f06c690ad918dd36b3c352ddfff3d9780696b2a53240708f17d0feee9f5e53",
-      "demoUrl": "https://x.com/i/status/1909300784837144699",
+      "demoUrl": "https://x.com/tolak_eth/status/1911047746360156267",
       "transport": "sse",
       "config": {
         "mcpServers": {
