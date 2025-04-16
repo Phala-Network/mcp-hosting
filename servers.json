@@ -1,6 +1,6 @@
 {
     "Juypter Notebook": {
-      "author": "Wenfeng Wang",
+      "author": "Phala Network",
       "description": "A Juypter Notebook MCP server deployed on Phala Cloud that allows your AI agents to execute code and interact with the notebook with your prompt.",
       "repo": "https://github.com/Phala-Network/phala-cloud-mcp-starter",
       "logo": "./assets/logs/phala.png",
@@ -19,7 +19,7 @@
       }
     },
     "Figma MCP": {
-      "author": "Wenfeng Wang",
+      "author": "Phala Network",
       "description": "Give Cursor, Windsurf, Cline, and other AI-powered coding tools access to your Figma files with this Model Context Protocol server.",
       "repo": "https://github.com/tolak/Figma-Context-MCP",
       "logo": "./assets/logs/phala.png",
@@ -39,7 +39,7 @@
       }
     },
     "Supabase DB": {
-      "author": "Wenfeng Wang",
+      "author": "Phala Network",
       "description": "You can use this server to connect your favorite AI tools (such as Cursor or Claude) directly with Supabase.",
       "repo": "https://github.com/tolak/supabase-mcp-server",
       "logo": "./assets/logs/phala.png",
@@ -56,7 +56,7 @@
       }
     },
     "ElevenLabsMCP": {
-      "author": "Wenfeng Wang",
+      "author": "Phala Network",
       "description": "Use any MCP client to connect to ElevenLabs to generate realistic voices for your projects.",
       "repo": "https://github.com/tolak/elevenlabs-mcp",
       "logo": "./assets/logs/phala.png",
