@@ -1,75 +1,92 @@
 {
-    "Juypter Notebook": {
-      "author": "Phala Network",
-      "description": "A Juypter Notebook MCP server deployed on Phala Cloud that allows your AI agents to execute code and interact with the notebook with your prompt.",
-      "repo": "https://github.com/Phala-Network/phala-cloud-mcp-starter",
-      "logo": "./assets/logs/phala.png",
-      "serverUrl": "https://86bdecad5e08996accc98232bed59978983050a0-8000.dstack-prod4.phala.network/sse",
-      "explorerUrl": "https://proof.t16z.com/reports/025c04688aac6b7783e7b1e8d41d6e5c169aebf982884681612bc1d487e7e012",
-      "demoUrl": "https://youtu.be/qG-9f66z-G8?si=Fqr9FbMChTIBfD2p",
-      "transport": "sse",
-      "config": {
-        "mcpServers": {
-          "Juypter Notebook": {
-            "url": "https://86bdecad5e08996accc98232bed59978983050a0-8000.dstack-prod4.phala.network/sse",
-            "env": {
-            }
-          }
+  "Juypter Notebook": {
+    "author": "Phala Network",
+    "description": "A Juypter Notebook MCP server deployed on Phala Cloud that allows your AI agents to execute code and interact with the notebook with your prompt.",
+    "repo": "https://github.com/Phala-Network/phala-cloud-mcp-starter",
+    "logo": "./assets/logs/phala.png",
+    "serverUrl": "https://86bdecad5e08996accc98232bed59978983050a0-8000.dstack-prod4.phala.network/sse",
+    "explorerUrl": "https://proof.t16z.com/reports/025c04688aac6b7783e7b1e8d41d6e5c169aebf982884681612bc1d487e7e012",
+    "demoUrl": "https://youtu.be/qG-9f66z-G8?si=Fqr9FbMChTIBfD2p",
+    "transport": "sse",
+    "config": {
+      "mcpServers": {
+        "Juypter Notebook": {
+          "url": "https://86bdecad5e08996accc98232bed59978983050a0-8000.dstack-prod4.phala.network/sse",
+          "env": {}
         }
       }
-    },
-    "Figma MCP": {
-      "author": "Phala Network",
-      "description": "Give Cursor, Windsurf, Cline, and other AI-powered coding tools access to your Figma files with this Model Context Protocol server.",
-      "repo": "https://github.com/tolak/Figma-Context-MCP",
-      "logo": "./assets/logs/phala.png",
-      "serverUrl": "https://ad791f428e4d2cb1e38e76833404124ed2240e8e-3333.dstack-prod5.phala.network/sse",
-      "explorerUrl": "https://proof.t16z.com/reports/1ced1fb45e9e8e0d81218726ddef50dd91490f923398baa2db4ba87b139c559b",
-      "demoUrl": "https://www.youtube.com/watch?v=6G9yb-LrEqg",
-      "transport": "sse",
-      "config": {
-        "mcpServers": {
-          "Figma MCP": {
-            "url": "https://ad791f428e4d2cb1e38e76833404124ed2240e8e-3333.dstack-prod5.phala.network/sse",
-            "env": {
-              "FIGMA_API_KEY": "<your figma API key>"
-            }
-          }
-        }
-      }
-    },
-    "Supabase DB": {
-      "author": "Phala Network",
-      "description": "You can use this server to connect your favorite AI tools (such as Cursor or Claude) directly with Supabase.",
-      "repo": "https://github.com/tolak/supabase-mcp-server",
-      "logo": "./assets/logs/phala.png",
-      "serverUrl": "https://04babf06cfdaa8887c104c5ad1092c399f629c3a-3000.dstack-prod5.phala.network/sse",
-      "explorerUrl": "https://proof.t16z.com/reports/522a11b76f3709b2e3c0b73503ba588768468322537d4928d25785f931db0ed2",
-      "demoUrl": "https://xguihxuzqibwxjnimxev.supabase.co/storage/v1/object/public/videos/marketing/blog/mcp-server/supabase-mcp-demo.mp4",
-      "transport": "sse",
-      "config": {
-        "mcpServers": {
-          "Supabase DB": {
-            "url": "https://04babf06cfdaa8887c104c5ad1092c399f629c3a-3000.dstack-prod5.phala.network/sse"
-          }
-        }
-      }
-    },
-    "ElevenLabsMCP": {
-      "author": "Phala Network",
-      "description": "Use any MCP client to connect to ElevenLabs to generate realistic voices for your projects.",
-      "repo": "https://github.com/tolak/elevenlabs-mcp",
-      "logo": "./assets/logs/phala.png",
-      "serverUrl": "https://<your application id on Phala Cloud>-8000.dstack-prod4.phala.network",
-      "explorerUrl": "https://proof.t16z.com/reports/28f06c690ad918dd36b3c352ddfff3d9780696b2a53240708f17d0feee9f5e53",
-      "demoUrl": "https://x.com/tolak_eth/status/1911047746360156267",
-      "transport": "sse",
-      "config": {
-        "mcpServers": {
-          "ElevenLabsMCP": {
-            "url": "https://<your application id on Phala Cloud>-8000.dstack-prod4.phala.network/sse"
+    }
+  },
+  "Figma MCP": {
+    "author": "Phala Network",
+    "description": "Give Cursor, Windsurf, Cline, and other AI-powered coding tools access to your Figma files with this Model Context Protocol server.",
+    "repo": "https://github.com/tolak/Figma-Context-MCP",
+    "logo": "./assets/logs/phala.png",
+    "serverUrl": "https://ad791f428e4d2cb1e38e76833404124ed2240e8e-3333.dstack-prod5.phala.network/sse",
+    "explorerUrl": "https://proof.t16z.com/reports/1ced1fb45e9e8e0d81218726ddef50dd91490f923398baa2db4ba87b139c559b",
+    "demoUrl": "https://www.youtube.com/watch?v=6G9yb-LrEqg",
+    "transport": "sse",
+    "config": {
+      "mcpServers": {
+        "Figma MCP": {
+          "url": "https://ad791f428e4d2cb1e38e76833404124ed2240e8e-3333.dstack-prod5.phala.network/sse",
+          "env": {
+            "FIGMA_API_KEY": "<your figma API key>"
           }
         }
       }
     }
+  },
+  "Supabase DB": {
+    "author": "Phala Network",
+    "description": "You can use this server to connect your favorite AI tools (such as Cursor or Claude) directly with Supabase.",
+    "repo": "https://github.com/tolak/supabase-mcp-server",
+    "logo": "./assets/logs/phala.png",
+    "serverUrl": "https://04babf06cfdaa8887c104c5ad1092c399f629c3a-3000.dstack-prod5.phala.network/sse",
+    "explorerUrl": "https://proof.t16z.com/reports/522a11b76f3709b2e3c0b73503ba588768468322537d4928d25785f931db0ed2",
+    "demoUrl": "https://xguihxuzqibwxjnimxev.supabase.co/storage/v1/object/public/videos/marketing/blog/mcp-server/supabase-mcp-demo.mp4",
+    "transport": "sse",
+    "config": {
+      "mcpServers": {
+        "Supabase DB": {
+          "url": "https://04babf06cfdaa8887c104c5ad1092c399f629c3a-3000.dstack-prod5.phala.network/sse"
+        }
+      }
+    }
+  },
+  "ElevenLabsMCP": {
+    "author": "Phala Network",
+    "description": "Use any MCP client to connect to ElevenLabs to generate realistic voices for your projects.",
+    "repo": "https://github.com/tolak/elevenlabs-mcp",
+    "logo": "./assets/logs/phala.png",
+    "serverUrl": "https://<your application id on Phala Cloud>-8000.dstack-prod4.phala.network",
+    "explorerUrl": "https://proof.t16z.com/reports/28f06c690ad918dd36b3c352ddfff3d9780696b2a53240708f17d0feee9f5e53",
+    "demoUrl": "https://x.com/tolak_eth/status/1911047746360156267",
+    "transport": "sse",
+    "config": {
+      "mcpServers": {
+        "ElevenLabsMCP": {
+          "url": "https://<your application id on Phala Cloud>-8000.dstack-prod4.phala.network/sse"
+        }
+      }
+    }
+  },
+  "DeMCP Defillama": {
+    "author": "DeMCP",
+    "description": "A DeFiLlama MCP server deployed on Phala Cloud that enables AI agents to fetch real-time DeFi data, including protocol TVL (Total Value Locked), chain metrics, and token prices. ",
+    "repo": "https://github.com/demcp/defillama-mcp",
+    "logo": "./assets/logs/demcp.png",
+    "serverUrl": "https://0169e5e468b6913f048e098570023fd40e092870-8080.dstack-prod5.phala.network/sse",
+    "explorerUrl": "https://proof.t16z.com/reports/cf2f6fc8e0f79d80632eb9f459a5182704e48c1f8db15e81e0b95658781348fa",
+    "demoUrl": "https://x.com/Chris_DeMCP/status/1913223059055776050",
+    "transport": "sse",
+    "config": {
+      "mcpServers": {
+        "DeMCP Defillama": {
+          "url": "https://0169e5e468b6913f048e098570023fd40e092870-8080.dstack-prod5.phala.network/sse",
+          "env": {}
+        }
+      }
+    }
+  }
 }
