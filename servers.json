@@ -88,5 +88,22 @@
         }
       }
     }
+  },
+  "Context7 MCP": {
+    "author": "Phala Network",
+    "description": "The Context7 MCP server deployed on Phala Cloud to help agent retrieves up-to-date documentation and code examples for any library.",
+    "repo": "https://github.com/tolak/context7",
+    "logo": "./assets/logs/phala.png",
+    "serverUrl": "https://35a566a328b5c264c8535389590f19489c2080a1-3000.dstack-prod4.phala.network",
+    "explorerUrl": "https://proof.t16z.com/reports/0a4f62c81e49fe270f2e365700a3d6ff70d7cc1998b17526eccd3123b756b430",
+    "demoUrl": "https://drive.google.com/file/d/1rlVNETABtMFh2bJD3WoCKw1m8bjvGncc/view?usp=sharing",
+    "transport": "sse",
+    "config": {
+      "mcpServers": {
+        "Context7": {
+          "url": "https://35a566a328b5c264c8535389590f19489c2080a1-3000.dstack-prod4.phala.network/sse"
+        }
+      }
+    }
   }
 }
