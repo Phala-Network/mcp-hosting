@@ -111,7 +111,7 @@
     "description": "This tool provides a way for LLMs and AI agents to securely access and interact with NEAR accounts and blockchain functionality.",
     "repo": "https://github.com/tolak/near-mcp",
     "logo": "./assets/logs/phala.png",
-    "serverUrl": "https://<your application id on Phala Cloud>-3000.dstack-<your node name>.phala.network",
+    "serverUrl": "https://2102edf12b316f56627c58fbf63a47de3868779c-3001.dstack-prod4.phala.network/",
     "explorerUrl": "https://proof.t16z.com/reports/03f261de41097c49737c415c61f50f3e76aabd1874f9b5ab589f76eb9b19bbb8",
     "demoUrl": "https://x.com/tolak_eth/status/1915300586045755479",
     "transport": "sse",
