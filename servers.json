@@ -59,14 +59,14 @@
     "description": "Use any MCP client to connect to ElevenLabs to generate realistic voices for your projects.",
     "repo": "https://github.com/tolak/elevenlabs-mcp",
     "logo": "./assets/logs/phala.png",
-    "serverUrl": "https://<your application id on Phala Cloud>-8000.dstack-<your node name>.phala.network",
+    "serverUrl": "https://5e5d709b69f8fe59bbd2d8c98ac988d879c4fc23-8000.dstack-prod4.phala.network/",
     "explorerUrl": "https://proof.t16z.com/reports/28f06c690ad918dd36b3c352ddfff3d9780696b2a53240708f17d0feee9f5e53",
     "demoUrl": "https://x.com/tolak_eth/status/1911047746360156267",
     "transport": "sse",
     "config": {
       "mcpServers": {
         "ElevenLabsMCP": {
-          "url": "https://<your application id on Phala Cloud>-8000.dstack-<your node name>.phala.network/sse"
+          "url": "https://5e5d709b69f8fe59bbd2d8c98ac988d879c4fc23-8000.dstack-prod4.phala.network/sse"
         }
       }
     }
@@ -118,7 +118,7 @@
     "config": {
       "mcpServers": {
         "NEAR Blockchain MCP": {
-          "url": "https://<your application id on Phala Cloud>-3000.dstack-<your node name>.phala.network/sse"
+          "url": "https://2102edf12b316f56627c58fbf63a47de3868779c-3001.dstack-prod4.phala.network/sse"
         }
       }
     }
