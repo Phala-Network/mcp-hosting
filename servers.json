@@ -122,5 +122,22 @@
         }
       }
     }
+  },
+  "DARK Solana MCP": {
+    "author": "Phala Network",
+    "description": "Powered by DARK, A MCP server that provides onchain tools for Claude AI, allowing it to interact with the Solana blockchain through a standardized interface.",
+    "repo": "https://github.com/tolak/solana-mcp",
+    "logo": "./assets/logs/phala.png",
+    "serverUrl": "https://861d3eb55fd938fdf7b175c71d7fdb093798df9b-3000.dstack-prod4.phala.network",
+    "explorerUrl": "https://proof.t16z.com/reports/e42d535f455f3c35409070d062d1864bddcc1293dc4968222ac434d233c1ac2b",
+    "demoUrl": "https://drive.google.com/file/d/1pKN3-KTP-izuaPKfJwJg5BlXkBgZND7d/view?usp=sharing",
+    "transport": "sse",
+    "config": {
+      "mcpServers": {
+        "DARK Solana MCP": {
+          "url": "https://861d3eb55fd938fdf7b175c71d7fdb093798df9b-3000.dstack-prod4.phala.network/sse"
+        }
+      }
+    }
   }
 }
