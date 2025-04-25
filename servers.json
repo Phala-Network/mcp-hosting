@@ -1,4 +1,56 @@
 {
+  "DeMCP Defillama": {
+    "author": "DeMCP",
+    "description": "A DeFiLlama MCP server deployed on Phala Cloud that enables AI agents to fetch real-time DeFi data, including protocol TVL (Total Value Locked), chain metrics, and token prices. ",
+    "repo": "https://github.com/demcp/defillama-mcp",
+    "logo": "./assets/logs/demcp.png",
+    "serverUrl": "https://0169e5e468b6913f048e098570023fd40e092870-8080.dstack-prod5.phala.network/sse",
+    "explorerUrl": "https://proof.t16z.com/reports/cf2f6fc8e0f79d80632eb9f459a5182704e48c1f8db15e81e0b95658781348fa",
+    "demoUrl": "https://x.com/Chris_DeMCP/status/1913223059055776050",
+    "transport": "sse",
+    "config": {
+      "mcpServers": {
+        "DeMCP Defillama": {
+          "url": "https://0169e5e468b6913f048e098570023fd40e092870-8080.dstack-prod5.phala.network/sse",
+          "env": {}
+        }
+      }
+    }
+  },
+  "NEAR Blockchain MCP": {
+    "author": "Phala Network",
+    "description": "This tool provides a way for LLMs and AI agents to securely access and interact with NEAR accounts and blockchain functionality.",
+    "repo": "https://github.com/tolak/near-mcp",
+    "logo": "./assets/logs/phala.png",
+    "serverUrl": "https://2102edf12b316f56627c58fbf63a47de3868779c-3001.dstack-prod4.phala.network/sse",
+    "explorerUrl": "https://proof.t16z.com/reports/03f261de41097c49737c415c61f50f3e76aabd1874f9b5ab589f76eb9b19bbb8",
+    "demoUrl": "https://x.com/tolak_eth/status/1915300586045755479",
+    "transport": "sse",
+    "config": {
+      "mcpServers": {
+        "NEAR Blockchain MCP": {
+          "url": "https://2102edf12b316f56627c58fbf63a47de3868779c-3001.dstack-prod4.phala.network/sse"
+        }
+      }
+    }
+  },
+  "Solana MCP by SendAI & DARK": {
+    "author": "Phala Network",
+    "description": "Powered by SendAI and adopted by DARK, A MCP server that provides onchain tools for Claude AI, allowing it to interact with the Solana blockchain through a standardized interface.",
+    "repo": "https://github.com/tolak/solana-mcp",
+    "logo": "./assets/logs/phala.png",
+    "serverUrl": "https://861d3eb55fd938fdf7b175c71d7fdb093798df9b-3000.dstack-prod4.phala.network/sse",
+    "explorerUrl": "https://proof.t16z.com/reports/e42d535f455f3c35409070d062d1864bddcc1293dc4968222ac434d233c1ac2b",
+    "demoUrl": "https://drive.google.com/file/d/1pKN3-KTP-izuaPKfJwJg5BlXkBgZND7d/view?usp=sharing",
+    "transport": "sse",
+    "config": {
+      "mcpServers": {
+        "DARK Solana MCP": {
+          "url": "https://861d3eb55fd938fdf7b175c71d7fdb093798df9b-3000.dstack-prod4.phala.network/sse"
+        }
+      }
+    }
+  },
   "Juypter Notebook": {
     "author": "Phala Network",
     "description": "A Juypter Notebook MCP server deployed on Phala Cloud that allows your AI agents to execute code and interact with the notebook with your prompt.",
@@ -59,7 +111,7 @@
     "description": "Use any MCP client to connect to ElevenLabs to generate realistic voices for your projects.",
     "repo": "https://github.com/tolak/elevenlabs-mcp",
     "logo": "./assets/logs/phala.png",
-    "serverUrl": "https://5e5d709b69f8fe59bbd2d8c98ac988d879c4fc23-8000.dstack-prod4.phala.network/",
+    "serverUrl": "https://5e5d709b69f8fe59bbd2d8c98ac988d879c4fc23-8000.dstack-prod4.phala.network/sse",
     "explorerUrl": "https://proof.t16z.com/reports/28f06c690ad918dd36b3c352ddfff3d9780696b2a53240708f17d0feee9f5e53",
     "demoUrl": "https://x.com/tolak_eth/status/1911047746360156267",
     "transport": "sse",
@@ -71,30 +123,12 @@
       }
     }
   },
-  "DeMCP Defillama": {
-    "author": "DeMCP",
-    "description": "A DeFiLlama MCP server deployed on Phala Cloud that enables AI agents to fetch real-time DeFi data, including protocol TVL (Total Value Locked), chain metrics, and token prices. ",
-    "repo": "https://github.com/demcp/defillama-mcp",
-    "logo": "./assets/logs/demcp.png",
-    "serverUrl": "https://0169e5e468b6913f048e098570023fd40e092870-8080.dstack-prod5.phala.network/sse",
-    "explorerUrl": "https://proof.t16z.com/reports/cf2f6fc8e0f79d80632eb9f459a5182704e48c1f8db15e81e0b95658781348fa",
-    "demoUrl": "https://x.com/Chris_DeMCP/status/1913223059055776050",
-    "transport": "sse",
-    "config": {
-      "mcpServers": {
-        "DeMCP Defillama": {
-          "url": "https://0169e5e468b6913f048e098570023fd40e092870-8080.dstack-prod5.phala.network/sse",
-          "env": {}
-        }
-      }
-    }
-  },
   "Context7 MCP": {
     "author": "Phala Network",
     "description": "The Context7 MCP server deployed on Phala Cloud to help agent retrieves up-to-date documentation and code examples for any library.",
     "repo": "https://github.com/tolak/context7",
     "logo": "./assets/logs/phala.png",
-    "serverUrl": "https://35a566a328b5c264c8535389590f19489c2080a1-3000.dstack-prod4.phala.network",
+    "serverUrl": "https://35a566a328b5c264c8535389590f19489c2080a1-3000.dstack-prod4.phala.network/sse",
     "explorerUrl": "https://proof.t16z.com/reports/0a4f62c81e49fe270f2e365700a3d6ff70d7cc1998b17526eccd3123b756b430",
     "demoUrl": "https://drive.google.com/file/d/1rlVNETABtMFh2bJD3WoCKw1m8bjvGncc/view?usp=sharing",
     "transport": "sse",
@@ -102,40 +136,6 @@
       "mcpServers": {
         "Context7": {
           "url": "https://35a566a328b5c264c8535389590f19489c2080a1-3000.dstack-prod4.phala.network/sse"
-        }
-      }
-    }
-  },
-  "NEAR Blockchain MCP": {
-    "author": "Phala Network",
-    "description": "This tool provides a way for LLMs and AI agents to securely access and interact with NEAR accounts and blockchain functionality.",
-    "repo": "https://github.com/tolak/near-mcp",
-    "logo": "./assets/logs/phala.png",
-    "serverUrl": "https://2102edf12b316f56627c58fbf63a47de3868779c-3001.dstack-prod4.phala.network/",
-    "explorerUrl": "https://proof.t16z.com/reports/03f261de41097c49737c415c61f50f3e76aabd1874f9b5ab589f76eb9b19bbb8",
-    "demoUrl": "https://x.com/tolak_eth/status/1915300586045755479",
-    "transport": "sse",
-    "config": {
-      "mcpServers": {
-        "NEAR Blockchain MCP": {
-          "url": "https://2102edf12b316f56627c58fbf63a47de3868779c-3001.dstack-prod4.phala.network/sse"
-        }
-      }
-    }
-  },
-  "DARK Solana MCP": {
-    "author": "Phala Network",
-    "description": "Powered by DARK, A MCP server that provides onchain tools for Claude AI, allowing it to interact with the Solana blockchain through a standardized interface.",
-    "repo": "https://github.com/tolak/solana-mcp",
-    "logo": "./assets/logs/phala.png",
-    "serverUrl": "https://861d3eb55fd938fdf7b175c71d7fdb093798df9b-3000.dstack-prod4.phala.network",
-    "explorerUrl": "https://proof.t16z.com/reports/e42d535f455f3c35409070d062d1864bddcc1293dc4968222ac434d233c1ac2b",
-    "demoUrl": "https://drive.google.com/file/d/1pKN3-KTP-izuaPKfJwJg5BlXkBgZND7d/view?usp=sharing",
-    "transport": "sse",
-    "config": {
-      "mcpServers": {
-        "DARK Solana MCP": {
-          "url": "https://861d3eb55fd938fdf7b175c71d7fdb093798df9b-3000.dstack-prod4.phala.network/sse"
         }
       }
     }
