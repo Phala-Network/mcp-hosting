@@ -1,4 +1,22 @@
 {
+  "EVM MCP": {
+    "author": "MCP DAO",
+    "description": "A Model Context Protocol server for interacting with the EVM blockchain, build with the EVM AI Kit by MCP DAO.",
+    "repo": "https://github.com/mcp-dao/evm-mcp",
+    "logo": "./assets/logs/evm-mcp.png",
+    "serverUrl": "https://80a95d038daac93fb069730cf2465d7ed9e25b1d-3000.dstack-prod5.phala.network/sse",
+    "explorerUrl": "https://proof.t16z.com/reports/cf2f6fc8e0f79d80632eb9f459a5182704e48c1f8db15e81e0b95658781348fa",
+    "demoUrl": "https://drive.google.com/file/d/1ZYLs_wvdhdIclfaFcU_KnX7-3JYkUKFn/view?usp=sharing",
+    "transport": "sse",
+    "config": {
+      "mcpServers": {
+        "EVM MCP": {
+          "url": "https://80a95d038daac93fb069730cf2465d7ed9e25b1d-3000.dstack-prod5.phala.network/sse",
+          "env": {}
+        }
+      }
+    }
+  },
   "DeMCP Defillama": {
     "author": "DeMCP",
     "description": "A DeFiLlama MCP server deployed on Phala Cloud that enables AI agents to fetch real-time DeFi data, including protocol TVL (Total Value Locked), chain metrics, and token prices. ",
