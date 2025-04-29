@@ -1,7 +1,7 @@
 {
   "EVM MCP": {
-    "author": "MCP DAO",
-    "description": "A Model Context Protocol server for interacting with the EVM blockchain, build with the EVM AI Kit by MCP DAO.",
+    "author": "OpenMCP",
+    "description": "A Model Context Protocol server for interacting with the EVM blockchain, build with the EVM AI Kit by OpenMCP.",
     "repo": "https://github.com/mcp-dao/evm-mcp",
     "logo": "./assets/logs/evm-mcp.png",
     "serverUrl": "https://80a95d038daac93fb069730cf2465d7ed9e25b1d-3000.dstack-prod5.phala.network/sse",
