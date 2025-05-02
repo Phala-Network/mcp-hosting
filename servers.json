@@ -122,5 +122,22 @@
         }
       }
     }
+  },
+  "Nexy MCP": {
+    "author": "Nexy AI",
+    "description": "It features modular integrations for token analytics and social sentiment analysis, making it ideal for developers and analysts seeking automation and insight.",
+    "repo": "https://github.com/melythemev/NexyA2A",
+    "logo": "./assets/logs/nexy.png",
+    "serverUrl": "https://cloud.phala.network/dashboard/cvms/app_6b6a3ddfb443dabdf2c03513e28f940af76e69e2",
+    "explorerUrl": "https://proof.t16z.com/reports/d90851abe570e51b63aeb2c4b72765d2bbfe0f2410861482f39c16fbfa8a3225",
+    "demoUrl": "https://x.com/nexyai_io/status/1917094033035530681",
+    "transport": "sse",
+    "config": {
+      "mcpServers": {
+        "NexyAI MCP": {
+          "url": "https://6b6a3ddfb443dabdf2c03513e28f940af76e69e2-3333.dstack-prod5.phala.network/sse"
+        }
+      }
+    }
   }
 }
