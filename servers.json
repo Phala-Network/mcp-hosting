@@ -1,4 +1,22 @@
 {
+  "MOOF MCP": {
+    "author": "MOOF",
+    "description": "An MCP server connects to MOOF, the first no-code platform to build your ultimate Agentic AI universe - powered by A2A, MCP and TEE",
+    "repo": "https://github.com/moofdotfun/MOOF-MCP",
+    "logo": "./assets/logs/moof.png",
+    "serverUrl": "https://81f97421637135afb2e36b65bd3ca05019e88594-5555.dstack-prod5.phala.network/sse",
+    "explorerUrl": "https://proof.t16z.com/reports/42588d150f555f443305f25ba0a2a2886f0d81bf1fa30a297bf13ebe14477b02",
+    "demoUrl": "https://x.com/moofdotfun/status/1921213033260740984",
+    "transport": "sse",
+    "config": {
+      "mcpServers": {
+        "EVM MCP": {
+          "url": "https://81f97421637135afb2e36b65bd3ca05019e88594-5555.dstack-prod5.phala.network/sse",
+          "env": {}
+        }
+      }
+    }
+  },
   "EVM MCP": {
     "author": "OpenMCP",
     "description": "A Model Context Protocol server for interacting with the EVM blockchain, build with the EVM AI Kit by OpenMCP.",
