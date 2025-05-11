@@ -10,7 +10,7 @@
     "transport": "sse",
     "config": {
       "mcpServers": {
-        "EVM MCP": {
+        "MOOF MCP": {
           "url": "https://81f97421637135afb2e36b65bd3ca05019e88594-5555.dstack-prod5.phala.network/sse",
           "env": {}
         }
