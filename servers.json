@@ -1,7 +1,7 @@
 {
   "Caila Weather MCP": {
-    "author": "Nubila",
-    "description": "An MCP server connects Connected to Caila's hyperlocal real-time weather data, which can provide planning references for activities such as travel and outdoor sports",
+    "author": "Caila",
+    "description": "An MCP server connects to Caila's hyperlocal real-time weather data, which can provide planning references for activities such as travel and outdoor sports",
     "repo": "https://github.com/Nubila/nubila-mcp",
     "logo": "./assets/logs/caila.png",
     "serverUrl": "https://b2e9b91dc7966abd37a2b8d659334939965b054f-8080.dstack-prod5.phala.network/mcp",
