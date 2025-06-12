@@ -1,4 +1,22 @@
 {
+  "Caila Weather MCP": {
+    "author": "Nubila",
+    "description": "An MCP server connects Connected to Caila's hyperlocal real-time weather data, which can provide planning references for activities such as travel and outdoor sports",
+    "repo": "https://github.com/Nubila/nubila-mcp",
+    "logo": "./assets/logs/caila.png",
+    "serverUrl": "https://b2e9b91dc7966abd37a2b8d659334939965b054f-8080.dstack-prod5.phala.network/mcp",
+    "explorerUrl": "https://proof.t16z.com/reports/42588d150f555f443305f25ba0a2a2886f0d81bf1fa30a297bf13ebe14477b02",
+    "demoUrl": "https://nubila-1.gitbook.io/api-docs",
+    "transport": "sse",
+    "config": {
+      "mcpServers": {
+        "Caila Weather MCP": {
+          "url": "https://b2e9b91dc7966abd37a2b8d659334939965b054f-8080.dstack-prod5.phala.network/mcp",
+          "env": {}
+        }
+      }
+    }
+  },
   "MOOF MCP": {
     "author": "MOOF",
     "description": "An MCP server connects to MOOF, the first no-code platform to build your ultimate Agentic AI universe - powered by A2A, MCP and TEE",
